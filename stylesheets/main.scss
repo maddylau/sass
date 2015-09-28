@@ -1,0 +1,16 @@
+@import 'nav';
+
+.hero {
+  background-image: url(photo-of-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 550px;
+  margin-top: -180px;
+}
+
+.content-block {
+  margin: 50px 100px 100px 100px;
+  font-family: $global-font;
+}

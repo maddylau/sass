@@ -1,0 +1,20 @@
+// setting a variable
+$global-font: Georgia;
+
+// setting opactiy for a background color
+@mixin background-color($opacity) {
+  background-color: rgba(248,69,37,$opacity)
+}
+
+
+.nav ul {
+  display: inline-block;
+  margin: 10px 40px 10px 10px;
+  color: #fff;
+  font-family: $global-font;
+}
+.nav {
+  @include background-color(0.85);
+  text-align: right;
+
+}
