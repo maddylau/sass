@@ -10,15 +10,13 @@
     display: inline-block;
     text-decoration: none;
     margin: 15px 20px 20px 20px; }
-  .nav a {
+  .nav a, .nav a:visited, .nav a:hover {
     text-decoration: none; }
     .nav a:visited {
-      color: #fff;
-      text-decoration: none; }
+      color: #fff; }
     .nav a:hover {
       color: #ffde7e;
-      font-style: italic;
-      text-decoration: none; }
+      font-style: italic; }
 
 .hero {
   background-image: url(photo-of-photo.jpg);

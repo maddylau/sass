@@ -1,5 +1,4 @@
-// setting a variable
-$global-font: Georgia;
+@import 'general';
 
 // setting opactiy for a background color
 @mixin background-color($opacity) {
@@ -28,12 +27,12 @@ $global-font: Georgia;
 
     &:visited {
       color: #fff;
-      text-decoration: none;
+      @extend a;
     }
     &:hover {
-      color: #ffde7e;
+      color: $secondary-color;
       font-style: italic;
-      text-decoration: none;
+      @extend a;
     }
   }
 }
