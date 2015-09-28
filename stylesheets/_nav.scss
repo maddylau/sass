@@ -6,15 +6,35 @@ $global-font: Georgia;
   background-color: rgba(248,69,37,$opacity)
 }
 
-
-.nav ul {
-  display: inline-block;
-  margin: 10px 40px 10px 10px;
-  color: #fff;
-  font-family: $global-font;
-}
 .nav {
   @include background-color(0.85);
   text-align: right;
+  list-style: none;
+  color: #fff;
+  
+  ul {
+    font-family: $global-font;
+    margin-top: 0;
+  }
 
+  li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px 20px 20px 20px;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+    &:hover {
+      color: #ffde7e;
+      font-style: italic;
+      text-decoration: none;
+    }
+  }
 }
+

@@ -1,12 +1,24 @@
-.nav ul {
-  display: inline-block;
-  margin: 10px 40px 10px 10px;
-  color: #fff;
-  font-family: Georgia; }
-
 .nav {
   background-color: rgba(248, 69, 37, 0.85);
-  text-align: right; }
+  text-align: right;
+  list-style: none;
+  color: #fff; }
+  .nav ul {
+    font-family: Georgia;
+    margin-top: 0; }
+  .nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px 20px 20px 20px; }
+  .nav a {
+    text-decoration: none; }
+    .nav a:visited {
+      color: #fff;
+      text-decoration: none; }
+    .nav a:hover {
+      color: #ffde7e;
+      font-style: italic;
+      text-decoration: none; }
 
 .hero {
   background-image: url(photo-of-photo.jpg);
